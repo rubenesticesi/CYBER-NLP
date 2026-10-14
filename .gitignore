@@ -1,0 +1,23 @@
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Archivos pesados y modelos
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+# Datos potencialmente privados
+private_data/
+secretos/
+# OS
+.DS_Store
+Thumbs.db
